@@ -3,13 +3,13 @@ import allChallenges from "~/assets/challenges/data"
 
 
 export const state = ():State => ({
-  level: 1,
+  level: 9,
   xp: {
     start: 0,
-    current: 0,
+    current: 10,
     end: 64
   },
-  completedChallenges: 0,
+  completedChallenges: 4,
   currentChallengeIndex: null,
   isLevelUpModalOpen: false,
   allChallenges,
